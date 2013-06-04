@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">单手键盘</string>
+    <string name="connect_desc">请先在电脑上打开单手输入服务端\r\n请输入服务端中显示的IP地址进行连接</string>
+    <string name="connect_connect">连接</string>
+    <string name="connect_ip_empty">IP地址为空,请输入</string>
+    <string name="connect_ip_unvalid">IP地址格式不对</string>
+    <string name="connect_hint_ip">192.168.1.1</string>
+    <string name="connect_connect_failed">连接失败,请确认单手输入服务端是否已经打开.</string>
+    <string name="connect_recently_used_host">常用服务端IP地址</string>
+    <string name="recently_used_host_delete">删除</string>
+    <string name="switch_to_left">切换到左手模式</string>
+    <string name="switch_to_right">切换到右手模式</string>
+
+</resources>

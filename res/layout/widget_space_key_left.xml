@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/key_bg_normal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Space"
+            android:singleLine="true"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/bottom_key_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:singleLine="true"
+                android:textColor="@color/primary"
+                android:textSize="@dimen/bottom_key_text_size"
+                android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="@dimen/light_size"
+            android:layout_height="@dimen/light_size"
+            android:src="@drawable/space_rectangle" />
+    </LinearLayout>
+
+</RelativeLayout>

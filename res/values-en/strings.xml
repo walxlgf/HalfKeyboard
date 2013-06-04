@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Half Keyboard</string>
+    <string name="connect_desc">Once you have downloaded, installed and launched the Half Keyboard application on your computer, it will display your IP address.  Enter this IP address on your phone to connect it to your computer.</string>
+    <string name="connect_connect">Connect</string>
+    <string name="connect_ip_empty">Invalid IP empty!</string>
+    <string name="connect_ip_unvalid">Invalid IP address!</string>
+    <string name="connect_hint_ip">192.168.1.1</string>
+    <string name="connect_connect_failed">Connect failed.</string>
+    <string name="connect_recently_used_host">Recently Used Hosts</string>
+    <string name="recently_used_host_delete">Delete</string>
+    <string name="switch_to_left">Switch to left handed mode</string>
+    <string name="switch_to_right">Switch to right handed mode</string>
+
+</resources>

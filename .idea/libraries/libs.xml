@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-example-1.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/jackson-all-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mina-core-2.0.0-M1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/slf4j-jdk14-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

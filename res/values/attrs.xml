@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseKeyView">
+        <attr name="orientation" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NormalKeyView">
+        <attr name="position" format="integer" />
+    </declare-styleable>
+
+</resources>

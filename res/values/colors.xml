@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg">#ffffff</color>
+    <color name="primary">#000000</color>
+    <color name="space_lock">#26952C</color>
+    <color name="number_lock">#FC8457</color>
+    <color name="normal_key_bottom_right_bg">#806B717B</color>
+
+    <color name="right_normal_solid">#FF26952C</color>
+    <color name="right_normal_stroke">#8026002C</color>
+    <color name="right_blink_solid">#6026952C</color>
+    <color name="right_blink_stroke">#8026002C</color>
+
+
+    <color name="lock_stroke">#8026002C</color>
+    <color name="lock_solid">#FFFFFF</color>
+
+</resources>

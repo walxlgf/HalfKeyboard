@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-c5904b5a13da14f7854ef24d656eaba3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/slf4j-jdk14-1.6.1-2dc65a018e717e1cac1693a8340e0c34.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/jackson-all-1.7.6-18c2afc27557713ab1b50f506bb4e417.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mina-core-2.0.0-M1-79cf47770822cecf2e5d3ff35513503e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mina-example-1.0.5-9db74699bbd4afaca0ff37f7fa4af5bf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/slf4j-api-1.6.1-535cb52abb3b40ac0946779018674af3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

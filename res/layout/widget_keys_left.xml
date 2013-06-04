@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:singlehanded="http://schemas.android.com/apk/res/com.half.keyboard"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/keyboard_padding"
+              android:paddingTop="@dimen/keyboard_padding">
+
+    <LinearLayout
+            android:id="@+id/ll_rights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/lights_padding"
+            android:paddingTop="@dimen/lights_padding">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+            <ImageView
+                    android:id="@+id/iv_ctrl_lock"
+                    android:layout_width="@dimen/light_size"
+                    android:layout_height="@dimen/light_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/right_normal"/>
+
+            <TextView
+                    android:id="@+id/tv_number_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="CTRL"
+                    android:textSize="@dimen/bottom_key_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+            <ImageView
+                    android:id="@+id/iv_alt_lock"
+                    android:layout_width="@dimen/light_size"
+                    android:layout_height="@dimen/light_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/right_normal"/>
+
+            <TextView
+                    android:id="@+id/tv_alt_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="ALT"
+                    android:textSize="@dimen/bottom_key_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+            <ImageView
+                    android:id="@+id/iv_win_lock"
+                    android:layout_width="@dimen/light_size"
+                    android:layout_height="@dimen/light_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/right_normal"/>
+
+            <TextView
+                    android:id="@+id/tv_win_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="WIN"
+                    android:textSize="@dimen/bottom_key_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+            <ImageView
+                    android:id="@+id/iv_number_lock"
+                    android:layout_width="@dimen/light_size"
+                    android:layout_height="@dimen/light_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/right_normal"/>
+
+            <TextView
+                    android:id="@+id/tv_number_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="NumLk"
+                    android:textSize="@dimen/bottom_key_text_size"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+            <ImageView
+                    android:id="@+id/iv_cap_lock"
+                    android:layout_width="@dimen/light_size"
+                    android:layout_height="@dimen/light_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/right_normal"/>
+
+            <TextView
+                    android:id="@+id/tv_cap_lock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="CapLk"
+                    android:textSize="@dimen/bottom_key_text_size"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_keys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            <com.half.keyboard.widget.DeleteKeyView
+                    android:id="@+id/key_delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/normal_key_magin"
+                    android:layout_weight="1"
+                    singlehanded:orientation="1"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="4"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:position="3"
+                        singlehanded:orientation="1"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="2"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="1"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="0"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="9"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="8"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="7"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="6"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="14"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="13"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="12"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="11"/>
+
+                <com.half.keyboard.widget.NormalKeyView
+                        android:id="@+id/key_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/normal_key_magin"
+                        android:layout_weight="1"
+                        singlehanded:orientation="1"
+                        singlehanded:position="10"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            <com.half.keyboard.widget.BkspcKeyView
+                    android:id="@+id/key_bkspc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/normal_key_magin"
+                    android:layout_weight="1"
+                    singlehanded:orientation="1"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.06"
+            android:orientation="horizontal">
+
+        <com.half.keyboard.widget.ShiftKeyView
+                android:id="@+id/key_shift"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_key_magin"
+                android:layout_weight="0.85"
+                singlehanded:orientation="1"/>
+
+        <com.half.keyboard.widget.EnterKeyView
+                android:id="@+id/key_enter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_key_magin"
+                android:layout_weight="1"
+                singlehanded:orientation="1"/>
+
+        <com.half.keyboard.widget.SymbolKeyView
+                android:id="@+id/key_symbol"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_key_magin"
+                android:layout_weight="1"
+                singlehanded:orientation="1"/>
+
+        <com.half.keyboard.widget.NumberKeyView
+                android:id="@+id/key_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_key_magin"
+                android:layout_weight="1"
+                singlehanded:orientation="1"/>
+
+        <com.half.keyboard.widget.SpaceKeyView
+                android:id="@+id/key_space"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/normal_key_magin"
+                android:layout_weight="0.85"
+                singlehanded:orientation="1"/>
+    </LinearLayout>
+</LinearLayout>
